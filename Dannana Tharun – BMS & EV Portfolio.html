@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dannana Tharun | BMS & EV Battery Systems Engineer</title>
+<meta name="description" content="Portfolio of Dannana Tharun, Electronics & Instrumentation Engineer focused on Battery Management Systems, battery modeling and active cell balancing.">
+<meta property="og:title" content="Dannana Tharun | Battery Management Systems">
+<meta property="og:description" content="EV battery modeling, active cell balancing, MATLAB/Simulink/Simscape.">
+<meta property="og:type" content="website">
+<style>
+:root{color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#0a1230;--bg2:#111c42;--line:#26365f;--tx:#e8eefc;--mu:#9fb0d4;--ac:#22d3ee;--ac2:#3b82f6;--r:14px}
+html{scroll-behavior:smooth;scroll-padding-top:calc(70px + env(safe-area-inset-top,0px))}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ac)}
+:focus-visible{outline:2px solid var(--ac);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:rgba(10,18,48,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-weight:700;color:var(--tx);text-decoration:none;letter-spacing:.5px}
+.logo b{color:var(--ac)}
+nav ul{display:flex;gap:4px;list-style:none;margin:0;padding:0}
+nav ul a{color:var(--mu);text-decoration:none;padding:8px 10px;border-radius:8px;font-size:.92rem}
+nav ul a:hover,nav ul a.on{color:var(--tx);background:var(--bg2)}
+#mb{display:none;background:none;border:1px solid var(--line);color:var(--tx);border-radius:8px;padding:8px 12px;font:inherit}
+section{padding:64px 0;border-top:1px solid var(--line)}
+section.hero{border:0;padding:72px 0 56px;background:radial-gradient(circle at 85% 0,rgba(34,211,238,.1),transparent 45%)}
+.eyebrow{color:var(--ac);font-size:.78rem;letter-spacing:.14em;font-weight:600}
+h1{font-size:clamp(1.9rem,5vw,3rem);line-height:1.15;margin:.4em 0}
+h2{font-size:1.6rem;margin:0 0 6px}
+h3{margin:0 0 6px;font-size:1.05rem}
+.sub{color:var(--mu);max-width:720px}
+.btns{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 10px}
+.btn{display:inline-block;padding:11px 20px;border-radius:10px;text-decoration:none;font-weight:600;border:1px solid var(--ac);color:var(--ac);background:none;font:inherit;font-weight:600;cursor:pointer}
+.btn.p{background:var(--ac);color:#04121f}
+.btn[aria-disabled=true]{opacity:.55;border-style:dashed;cursor:not-allowed}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:22px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:20px}
+.card p{margin:.3em 0;color:var(--mu);font-size:.95rem}
+.tag{display:inline-block;font-size:.75rem;color:var(--ac);border:1px solid var(--line);border-radius:99px;padding:2px 10px;margin-bottom:8px}
+.hl{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));margin-top:30px}
+.hl div{border-left:2px solid var(--ac);padding:2px 12px;color:var(--mu);font-size:.9rem}
+.hl b{display:block;color:var(--tx)}
+.flow{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:18px 0}
+.flow span{background:var(--bg2);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:.85rem}
+.flow i{color:var(--ac);font-style:normal}
+.note{border:1px solid #f5b94a;background:rgba(245,185,74,.08);border-radius:var(--r);padding:18px;margin:20px 0}
+.note h3{color:#f5b94a}
+.ph{border:1px dashed var(--line);border-radius:10px;padding:26px 12px;text-align:center;color:var(--mu);font-size:.85rem}
+ul.l{padding-left:18px;color:var(--mu)}
+footer{border-top:1px solid var(--line);padding:26px 0;color:var(--mu);font-size:.85rem;text-align:center}
+@media(max-width:820px){#mb{display:block}nav ul{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--bg);border-bottom:1px solid var(--line);padding:10px 20px}nav ul.open{display:flex}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{header{display:none}body{background:#fff;color:#000}.card{border-color:#999;background:#fff}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#home">D<b>T</b> · Dannana Tharun</a>
+<button id="mb" aria-expanded="false" aria-controls="menu">Menu</button>
+<ul id="menu">
+<li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#experience">Experience</a></li><li><a href="#certificates">Certificates</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+</ul></nav></div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<div class="eyebrow">ELECTRIC VEHICLES · BATTERY SYSTEMS · CONTROL ENGINEERING</div>
+<h1>Engineering Smarter Battery Management for Electric Vehicles.</h1>
+<p class="sub">I’m Dannana Tharun, an Electronics and Instrumentation Engineering graduate focused on battery pack modeling, battery management systems, active cell balancing, SOC/SOH estimation, and model-based control using MATLAB, Simulink, and Simscape.</p>
+<div class="btns">
+<a class="btn p" href="#projects">Explore My Projects</a>
+<a class="btn" data-link="resume" href="#">Download Resume</a>
+<a class="btn" data-link="github" href="#">View GitHub</a>
+<a class="btn" data-link="linkedin" href="#">Connect on LinkedIn</a>
+</div>
+<div class="hl">
+<div><b>B.Tech, E&amp;I Engineering</b>Adikavi Nannaya University</div>
+<div><b>CGPA 8.2 / 10</b>2022–2026</div>
+<div><b>IIPE Visakhapatnam</b>Battery systems internship</div>
+<div><b>Active cell balancing</b>Li-ion battery project</div>
+<div><b>MATLAB / Simulink</b>Simscape modeling</div>
+</div></div></section>
+
+<section id="about"><div class="wrap">
+<h2>About</h2>
+<p class="sub">My Electronics and Instrumentation background connects measurement, sensing, control systems, simulation and battery management. I am an early-career engineer aiming for entry-level roles as a Battery Management System Engineer, working towards safe, reliable, efficient and intelligent battery systems for EVs.</p>
+<div class="grid">
+<div class="card"><h3>Practiced in projects</h3><p>Battery pack modeling, SOC monitoring, active balancing concepts, MATLAB/Simulink/Simscape.</p></div>
+<div class="card"><h3>Studied</h3><p>SOH estimation, thermal management, NMC and LFP chemistries, EV battery monitoring and protection.</p></div>
+<div class="card"><h3>Still developing</h3><p>Hardware BMS implementation, embedded firmware, CAN-based communication.</p></div>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Technical Skills</h2>
+<p class="sub">Grouped by evidence level; no arbitrary proficiency percentages.</p>
+<div class="grid">
+<div class="card"><h3>Battery &amp; EV</h3><p>BMS fundamentals · Li-ion systems · pack modeling · SOC/SOH concepts · active cell balancing · thermal management concepts · NMC/LFP awareness</p></div>
+<div class="card"><h3>Modeling &amp; Control</h3><p>MATLAB · Simulink · Simscape · Stateflow · PID/PI control concepts · closed-loop control · PWM concepts</p></div>
+<div class="card"><h3>Instrumentation &amp; Automation</h3><p>Sensors &amp; transmitters · calibration tools · loop troubleshooting · PLC programming · P&amp;ID design</p></div>
+<div class="card"><h3>Programming &amp; Protocols</h3><p>Python fundamentals · basic CAN, I²C, SPI awareness · embedded systems fundamentals</p></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Featured Project</h2>
+<h3 style="color:var(--ac)">Active Cell Balancing of Lithium-Ion Batteries for an EV</h3>
+<p class="sub">IIPE Visakhapatnam · 8 Dec 2025 – 7 Apr 2026 · B.Tech project report. Guide: Dr. D. Kishore, Assistant Professor, Dept. of E&amp;I Engineering. Teammate: K. Devi Prasad.</p>
+
+<div class="grid">
+<div class="card"><h3>Overview</h3><p>Cells in a pack drift apart in State of Charge (SOC). Without balancing, the weakest or most-discharged cell limits usable pack capacity and consistency. Active balancing moves energy between cells instead of dissipating it.</p></div>
+<div class="card"><h3>Objectives</h3><p>Investigate active cell balancing, BMS concepts, SOC/SOH estimation and energy transfer between cells.</p></div>
+<div class="card"><h3>Technical approach</h3><p>MATLAB/Simulink battery modeling and SOC monitoring. The report discusses switched-capacitor and inductor-based DC–DC balancing, buck–boost converter concepts, closed-loop control, PI, PWM and switching logic. These are methods studied and modeled in simulation, not a hardware-ready integrated system.</p></div>
+</div>
+
+<h3 style="margin-top:26px">System architecture <small style="color:var(--mu)">(conceptual representation)</small></h3>
+<div class="flow" role="img" aria-label="Block diagram from battery cell models to monitoring and evaluation">
+<span>Battery pack / cell models</span><i>→</i><span>Voltage &amp; current measurement</span><i>→</i><span>SOC information</span><i>→</i><span>Cell selection &amp; balancing control</span><i>→</i><span>Converter switching logic</span><i>→</i><span>Energy transfer between cells</span><i>→</i><span>Monitoring &amp; evaluation</span>
+</div>
+
+<h3>Results and engineering analysis</h3>
+<div class="grid">
+<div class="card"><h3>Distribution comparison</h3><p>Initial SOC values span roughly 40–90%. The plotted final distribution spans roughly 65–75%, which suggests the intended balancing outcome.</p></div>
+<div class="card"><h3>Time-based simulation</h3><p>The SOC-imbalance curve stays nearly constant at about a 50% spread, and individual SOC traces change little over the 60-minute run. Expected dynamic balancing is not consistently demonstrated.</p></div>
+</div>
+<div class="note"><h3>Engineering Challenges &amp; Next Steps</h3>
+<p style="margin:0 0 8px;color:var(--mu)">The balancing algorithm is not claimed as fully validated. The report points to these areas for further investigation:</p>
+<ul class="l" style="margin:0"><li>SOC update equations</li><li>Converter current and battery model interaction</li><li>Energy-transfer implementation</li><li>Dynamic simulation and validation</li></ul></div>
+<p class="sub"><b>Learning:</b> control logic, battery state updates, converter behavior and measurable simulation results must be connected end to end, otherwise a plausible-looking result can hide a model gap.</p>
+
+<h3 style="margin-top:22px">Evidence gallery</h3>
+<div class="grid">
+<div class="ph">Simulink model screenshot<br>(add real image)</div>
+<div class="ph">Converter subsystem<br>(add real image)</div>
+<div class="ph">SOC plots<br>(add real image)</div>
+<div class="ph">Cell-selection &amp; control logic<br>(add real image)</div>
+</div>
+<div class="btns">
+<a class="btn" data-link="report" href="#">View Project Report</a>
+<a class="btn" data-link="projectCert" href="#">View Completion Certificate</a>
+<a class="btn" data-link="figures" href="#">View Technical Figures</a>
+</div>
+
+<h3 style="margin-top:34px">Other project &amp; presentation</h3>
+<div class="card"><span class="tag">Conference</span><h3>Design and Analysis of EMG Signals Using Virtual Instrumentation</h3>
+<p>ICABMSHT 2024, PSG College of Technology, Coimbatore (Dept. of Biomedical Engineering). EMG signal analysis with virtual instrumentation.</p>
+<p>Workshop participation (separate from the paper): “Innovative Technologies in Human Motion”, 19 Dec 2024, with Delsys Inc.</p>
+<div class="btns"><a class="btn" data-link="emgPresentation" href="#">Presentation record</a><a class="btn" data-link="emgWorkshop" href="#">Workshop certificate</a></div></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Internship Experience</h2>
+<div class="grid">
+<div class="card"><span class="tag">12 May – 12 Jul 2025</span><h3>Design of Battery Pack and BMS for Electric Vehicles</h3><p>Indian Institute of Petroleum and Energy, Visakhapatnam. Per the certificate: MATLAB, battery design and simulation, battery-pack modeling, and BMS simulation for EVs using Simscape.</p><div class="btns"><a class="btn" data-link="iipeIntern" href="#">View Certificate</a></div></div>
+<div class="card"><span class="tag">Short-term · May 2024</span><h3>Lead Resistance Compensation in Resistive Sensors</h3><p>National Institute of Technology, Tiruchirappalli. Studied lead-resistance compensation techniques to reduce remote measurement errors in resistive sensor applications. Exact dates to be confirmed from the certificate.</p><div class="btns"><a class="btn" data-link="nitt" href="#">View Certificate</a></div></div>
+</div></div></section>
+
+<section id="certificates"><div class="wrap">
+<h2>Certificates &amp; Training</h2>
+<div class="grid">
+<div class="card"><h3>Design of Battery Pack and BMS for EVs</h3><p>IIPE Visakhapatnam · 12 May – 12 Jul 2025</p><a class="btn" data-link="iipeIntern" href="#">View Certificate</a></div>
+<div class="card"><h3>Active Cell Balancing of Lithium-Ion Batteries for an EV</h3><p>IIPE Visakhapatnam · 8 Dec 2025 – 7 Apr 2026</p><a class="btn" data-link="projectCert" href="#">View Certificate</a></div>
+<div class="card"><h3>One-Day Awareness Program on EV BMS, Practical Demonstration &amp; Expo (EV&amp;BMS-26)</h3><p>NIT Warangal · 9 Feb 2026 · Hioki and Vastek branding on certificate</p><a class="btn" data-link="evbms" href="#">View Certificate</a></div>
+<div class="card"><h3>Innovative Technologies in Human Motion (workshop participation)</h3><p>PSG College of Technology with Delsys Inc. · 19 Dec 2024</p><a class="btn" data-link="emgWorkshop" href="#">View Certificate</a></div>
+<div class="card"><h3>Python for Beginners</h3><p>Simplilearn SkillUp · 8 Jan 2024 · Code 4769405</p><a class="btn" data-link="python" href="#">View Certificate</a></div>
+<div class="card"><h3>NIT Tiruchirappalli internship</h3><p>Exact title and date to be added from the certificate file.</p><a class="btn" data-link="nitt" href="#">View Certificate</a></div>
+</div>
+<p class="sub" style="margin-top:16px">The Coursera “Python for Everybody” credential is listed on the resume but not shown here until its certificate is verified.</p>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education</h2>
+<div class="grid">
+<div class="card"><span class="tag">2022–2026</span><h3>B.Tech, Electronics &amp; Instrumentation Engineering</h3><p>University College of Engineering, Adikavi Nannaya University · CGPA 8.2/10</p></div>
+<div class="card"><span class="tag">2020–2022</span><h3>Intermediate (MPC)</h3><p>AP Model Junior College · GPA 7.7/10</p></div>
+<div class="card"><span class="tag">2019–2020</span><h3>SSC</h3><p>ZPHS · GPA 9.8/10</p></div>
+</div>
+<h2 style="margin-top:40px">Career Focus</h2>
+<p class="sub">Roles I am interested in, not positions I hold:</p>
+<ul class="l"><li>Battery Management System Engineer</li><li>Battery Modeling and Simulation Engineer</li><li>Battery Testing and Validation Engineer</li><li>EV Systems and Controls Engineer</li><li>Entry-level battery systems and embedded BMS roles</li></ul>
+</div></section>
+
+<section id="contact"><div class="wrap">
+<h2>Contact</h2>
+<p class="sub">Recruiters, technical teams and collaborators are welcome to reach out about battery modeling, BMS development and EV engineering opportunities.</p>
+<div class="btns">
+<a class="btn p" href="mailto:tarun.eie.aknu@gmail.com">tarun.eie.aknu@gmail.com</a>
+<a class="btn" href="tel:+919966784039">+91 99667 84039</a>
+<a class="btn" data-link="linkedin" href="#">LinkedIn</a>
+<a class="btn" data-link="github" href="#">GitHub</a>
+<a class="btn" data-link="resume" href="#">Download Resume</a>
+</div>
+<p class="sub">Andhra Pradesh, India</p>
+</div></section>
+</main>
+<footer><div class="wrap">© Dannana Tharun · Electronics &amp; Instrumentation Engineer</div></footer>
+
+<script>
+/* ===== CONFIG: paste your real URLs here. Empty = button shows as "not set". ===== */
+const CONFIG={
+ linkedin:"",github:"",resume:"",report:"",projectCert:"",figures:"",
+ iipeIntern:"",evbms:"",emgWorkshop:"",emgPresentation:"",python:"",nitt:""
+};
+document.querySelectorAll("[data-link]").forEach(a=>{
+ const u=CONFIG[a.dataset.link];
+ if(u){a.href=u;a.target="_blank";a.rel="noopener"}
+ else{a.removeAttribute("href");a.setAttribute("role","link");a.setAttribute("aria-disabled","true");a.title="Link not configured yet";a.addEventListener("click",e=>e.preventDefault())}
+});
+const mb=document.getElementById("mb"),menu=document.getElementById("menu");
+mb.onclick=()=>{const o=menu.classList.toggle("open");mb.setAttribute("aria-expanded",o)};
+menu.querySelectorAll("a").forEach(a=>a.onclick=()=>{menu.classList.remove("open");mb.setAttribute("aria-expanded","false")});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")menu.classList.remove("open")});
+const links=[...menu.querySelectorAll("a")];
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle("on",l.hash==="#"+e.target.id))}),{rootMargin:"-45% 0px -50% 0px"});
+document.querySelectorAll("main section").forEach(s=>io.observe(s));
+</script>
+</body>
+</html>
